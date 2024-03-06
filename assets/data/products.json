@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "brandId": 1,
+    "categoryId": 2,
+    "level": 2,
+    "title": "Yamaha Pacifica 112VM Red Metallic",
+    "description": "yamaha elektricna gitara",
+    "img": {
+      "src": "assets/img/yamaha1.png",
+      "alt": "Yamaha Pacifica 112VM Red Metallic"
+    },
+    "price": {
+      "oldPrice": 49.995,
+      "newPrice": 46.559
+    },
+    "discount": 1
+  },
+  {
+    "id": 2,
+    "brandId": 1,
+    "categoryId": 1,
+    "level": 1,
+    "title": "Yamaha F310 II Natural",
+    "description": "yamaha akusticna gitara",
+    "img": {
+      "src": "assets/img/yamaha3.jpg",
+      "alt": "Yamaha F310 II Natural"
+    },
+    "price": {
+      "oldPrice": 22.878,
+      "newPrice": 20.596
+    },
+    "discount": 2
+  },
+  {
+    "id": 3,
+    "brandId": 1,
+    "categoryId": 1,
+    "level": 2,
+    "title": "Yamaha JR2 Tobacco Brown Sunburst",
+    "description": "yamaha akusticna gitara",
+    "img": {
+      "src": "assets/img/yamaha4.png",
+      "alt": "Yamaha JR2 Tobacco Brown Sunburst"
+    },
+    "price": {
+      "oldPrice": 35.966,
+      "newPrice": 28.299
+    },
+    "discount": 2
+  },
+  {
+    "id": 4,
+    "brandId": 1,
+    "categoryId": 2,
+    "level": 2,
+    "title": "Yamaha Pacifica 112V Black",
+    "description": "yamaha elektricna gitara",
+    "img": {
+      "src": "assets/img/yamaha2.jpg",
+      "alt": "Yamaha Pacifica 112V Black"
+    },
+    "price": {
+      "oldPrice": 48.995,
+      "newPrice": 46.999
+    },
+    "discount": 2
+  },
+  {
+    "id": 5,
+    "brandId": 1,
+    "categoryId": 1,
+    "level": 1,
+    "title": "Yamaha JR2",
+    "description": "yamaha akusticna gitara",
+    "img": {
+      "src": "assets/img/yamaha5.png",
+      "alt": "Yamaha JR2"
+    },
+    "price": {
+      "oldPrice": 32.999,
+      "newPrice": 27.992
+    },
+    "discount": 2
+  },
+  {
+    "id": 6,
+    "brandId": 1,
+    "categoryId": 1,
+    "level": 2,
+    "title": "Yamaha STORIA I Off White",
+    "description": "yamaha akusticna gitara",
+    "img": {
+      "src": "assets/img/yamaha6.png",
+      "alt": "Yamaha STORIA I Off White"
+    },
+    "price": {
+      "oldPrice": 53.999,
+      "newPrice": 49.492
+    },
+    "discount": 1
+  },
+  {
+    "id": 7,
+    "brandId": 2,
+    "categoryId": 3,
+    "level": 3,
+    "title": "Fender Tone Master Princeton Reverb",
+    "description": "gitarsko pojacalo",
+    "img": {
+      "src": "assets/img/fender1.png",
+      "alt": "Fender Tone Master Princeton Reverb"
+    },
+    "price": {
+      "oldPrice": 168.341,
+      "newPrice": 142.099
+    },
+    "discount": 1
+  },
+  {
+    "id": 8,
+    "brandId": 2,
+    "categoryId": 4,
+    "level": 2,
+    "title": "Fender Santa Ana Overdrive",
+    "description": "pedala",
+    "img": {
+      "src": "assets/img/fender4.png",
+      "alt": "Fender Santa Ana Overdrive"
+    },
+    "price": {
+      "oldPrice": 28.432,
+      "newPrice": 24.494
+    },
+    "discount": 1
+  },
+  {
+    "id": 9,
+    "brandId": 2,
+    "categoryId": 3,
+    "level": 2,
+    "title": "Fender Mustang LT40s",
+    "description": "gitarsko pojacalo",
+    "img": {
+      "src": "assets/img/fender2.png",
+      "alt": "Fender Mustang LT40s"
+    },
+    "price": {
+      "oldPrice": 37.982,
+      "newPrice": 34.492
+    },
+    "discount": 2
+  },
+  {
+    "id": 10,
+    "brandId": 2,
+    "categoryId": 3,
+    "level": 1,
+    "title": "Fender Frontman 10G",
+    "description": "gitarsko pojacalo",
+    "img": {
+      "src": "assets/img/fender3.png",
+      "alt": "Fender Frontman 10G"
+    },
+    "price": {
+      "oldPrice": 17.999,
+      "newPrice": 15.499
+    },
+    "discount": 2
+  },
+  {
+    "id": 11,
+    "brandId": 3,
+    "categoryId": 3,
+    "level": 2,
+    "title": "Roland Street CUBE Amp",
+    "description": "gitarsko pojacalo",
+    "img": {
+      "src": "assets/img/roland1.png",
+      "alt": "Roland Street CUBE Amp"
+    },
+    "price": {
+      "oldPrice": 47.055,
+      "newPrice": 42.599
+    },
+    "discount": 3
+  },
+  {
+    "id": 12,
+    "brandId": 3,
+    "categoryId": 3,
+    "level": 2,
+    "title": "Roland Mobile Cube",
+    "description": "gitarsko pojacalo",
+    "img": {
+      "src": "assets/img/roland2.png",
+      "alt": "Roland Mobile Cube"
+    },
+    "price": {
+      "oldPrice": 31.991,
+      "newPrice": 25.393
+    },
+    "discount": 4
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "value": "Akustična gitara"
+  },
+  {
+    "id": 2,
+    "value": "Električna gitara"
+  },
+  {
+    "id": 3,
+    "value": "Gitarsko pojačalo"
+  },
+  {
+    "id": 4,
+    "value": "Gitarska pedala"
+  },
+  {
+    "id": 5,
+    "value": "Bas gitara"
+  },
+  {
+    "id": 6,
+    "value": "Ostala oprema"
+  }
+]
