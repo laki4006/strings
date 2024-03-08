@@ -185,12 +185,12 @@ window.onload = () => {
                 localStorage.setItem('cart', JSON.stringify(cart));
                 $('#cart').text(cart.length);
         
-                // Show snackbar notification
+               
                 var toast = document.getElementById("toast");
                 toast.style.visibility = "visible";
                 setTimeout(function() {
                     toast.style.visibility = "hidden";
-                }, 3000); // Hide after 3 seconds
+                }, 3000); 
             });
         });
         
