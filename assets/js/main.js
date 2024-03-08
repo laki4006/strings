@@ -163,7 +163,6 @@ window.onload = () => {
                 }
                 const id = Number($(this).attr('id'));
                 $(`#add-to-cart-${id}`).show();
-                displayConfirmationMessage();
             });
         });
         
@@ -185,7 +184,13 @@ window.onload = () => {
                 }
                 localStorage.setItem('cart', JSON.stringify(cart));
                 $('#cart').text(cart.length);
-                displayConfirmationMessage();
+        
+                // Show snackbar notification
+                var toast = document.getElementById("toast");
+                toast.style.visibility = "visible";
+                setTimeout(function() {
+                    toast.style.visibility = "hidden";
+                }, 3000); // Hide after 3 seconds
             });
         });
         
@@ -206,13 +211,11 @@ window.onload = () => {
                 }
                 localStorage.setItem('cart', JSON.stringify(cart));
                 $('#cart').text(cart.length);
-                displayConfirmationMessage();
+                
             });
         });
         
-        function displayConfirmationMessage() {
-            $('#confirmation-message').text('Item added to cart successfully.');
-        }
+        
     }
 
     function brandFilter(data) {
