@@ -44,6 +44,54 @@
         * {
             font-family: "Quicksand";
         }
+
+        #toast {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -200px;
+            background-color: rgb(186, 255, 129);
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color: black;
+            text-align: center;
+            border-radius: 10px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 50%;
+            bottom: 30px;
+            font-size: 17px;
+        }
+
+        #toast.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        }
+
+        @-webkit-keyframes fadein {
+        from {bottom: 0; opacity: 0;} 
+        to {bottom: 30px; opacity: 1;}
+        }
+
+        @keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+        }
+
+        @-webkit-keyframes fadeout {
+        from {bottom: 30px; opacity: 1;} 
+        to {bottom: 0; opacity: 0;}
+        }
+
+        @keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+        }
+        .checkicon i{
+        font-size: 40px;
+        color: #47d764;
+        }
+
     </style>
 </head>
 <body>
@@ -242,10 +290,8 @@
         <!--Products-->
         <div class="row" id="products">
 
-
-
+           
             
-
         </div>
     </div>
 
@@ -296,12 +342,23 @@
 
 </div>
 
+<div id="toast" style="visibility: hidden;">
+    <div class="checkicon">
+      <i class="fas fa-check-square"></i>
+    </div>
+    Uspešno ste dodali produkt u korpu!
+  </div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
+
+
 <script type="text/javascript" src="assets/js/user.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+
+
 
 </body>
 </html>
